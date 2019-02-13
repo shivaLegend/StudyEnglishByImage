@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "a0110b1f6aaf9b3e25128d023efab97d"
+build_time: [1550051554, 557167000]
+inputs:
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/Controllers/ViewController.swift": [1550047189, 0]
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/AppDelegate.swift": [1549386985, 0]
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/Controllers/ResultViewController.swift": [1550051554, 0]
