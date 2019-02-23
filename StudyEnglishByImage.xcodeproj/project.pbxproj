@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF02A0DB2215DC9100215085 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02A0DA2215DC9100215085 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		CF02A0DD2215DCC600215085 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CF02A0DC2215DCC600215085 /* MobileNet.mlmodel */; };
 		CF237A912209FC6900C67465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF237A902209FC6900C67465 /* AppDelegate.swift */; };
 		CF237A932209FC6900C67465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF237A922209FC6900C67465 /* ViewController.swift */; };
 		CF237A962209FC6900C67465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF237A942209FC6900C67465 /* Main.storyboard */; };
 		CF237A982209FC6B00C67465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF237A972209FC6B00C67465 /* Assets.xcassets */; };
 		CF237A9B2209FC6B00C67465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF237A992209FC6B00C67465 /* LaunchScreen.storyboard */; };
+		CF7464B72217099C00D4E2D8 /* UIImageLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7464B62217099C00D4E2D8 /* UIImageLoad.swift */; };
 		CF959564221319CB00203536 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF959563221319CB00203536 /* ResultViewController.swift */; };
+		D0710DF7D592F4345A738CDC /* Pods_StudyEnglishByImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79939DFFB0BC95B228B762DE /* Pods_StudyEnglishByImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		105FE6814950472C030EC185 /* Pods-StudyEnglishByImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyEnglishByImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyEnglishByImage/Pods-StudyEnglishByImage.release.xcconfig"; sourceTree = "<group>"; };
+		360476E7636C10505057CAFC /* Pods-StudyEnglishByImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyEnglishByImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyEnglishByImage/Pods-StudyEnglishByImage.debug.xcconfig"; sourceTree = "<group>"; };
+		79939DFFB0BC95B228B762DE /* Pods_StudyEnglishByImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyEnglishByImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF02A0DA2215DC9100215085 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		CF02A0DC2215DCC600215085 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		CF237A8D2209FC6900C67465 /* StudyEnglishByImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyEnglishByImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF237A902209FC6900C67465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF237A922209FC6900C67465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +32,7 @@
 		CF237A972209FC6B00C67465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF237A9A2209FC6B00C67465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF237A9C2209FC6B00C67465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7464B62217099C00D4E2D8 /* UIImageLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageLoad.swift; sourceTree = "<group>"; };
 		CF959563221319CB00203536 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -31,15 +41,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0710DF7D592F4345A738CDC /* Pods_StudyEnglishByImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014A21CFFFAEAE30F33CFCA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79939DFFB0BC95B228B762DE /* Pods_StudyEnglishByImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF1AF3B1220B3D5E00F0D8D1 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CF02A0DA2215DC9100215085 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				CF7464B62217099C00D4E2D8 /* UIImageLoad.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -49,6 +70,8 @@
 			children = (
 				CF237A8F2209FC6900C67465 /* StudyEnglishByImage */,
 				CF237A8E2209FC6900C67465 /* Products */,
+				E0B1BC80D19BD589EEDB686B /* Pods */,
+				014A21CFFFAEAE30F33CFCA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +90,7 @@
 				CF9595622213199300203536 /* Views */,
 				CF9595612213193600203536 /* Controllers */,
 				CF1AF3B1220B3D5E00F0D8D1 /* Extension */,
+				CF02A0DC2215DCC600215085 /* MobileNet.mlmodel */,
 				CF237A972209FC6B00C67465 /* Assets.xcassets */,
 				CF237A9C2209FC6B00C67465 /* Info.plist */,
 			);
@@ -91,6 +115,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E0B1BC80D19BD589EEDB686B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				360476E7636C10505057CAFC /* Pods-StudyEnglishByImage.debug.xcconfig */,
+				105FE6814950472C030EC185 /* Pods-StudyEnglishByImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF237A9F2209FC6B00C67465 /* Build configuration list for PBXNativeTarget "StudyEnglishByImage" */;
 			buildPhases = (
+				094E813AF96816FECA856948 /* [CP] Check Pods Manifest.lock */,
 				CF237A892209FC6900C67465 /* Sources */,
 				CF237A8A2209FC6900C67465 /* Frameworks */,
 				CF237A8B2209FC6900C67465 /* Resources */,
+				23A0DD4C9765F1FDFC7F6E52 /* [CP] Embed Pods Frameworks */,
+				FABF91AB86769C201FF1F051 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,12 +193,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		094E813AF96816FECA856948 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyEnglishByImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23A0DD4C9765F1FDFC7F6E52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StudyEnglishByImage/Pods-StudyEnglishByImage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyEnglishByImage/Pods-StudyEnglishByImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABF91AB86769C201FF1F051 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyEnglishByImage/Pods-StudyEnglishByImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF237A892209FC6900C67465 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF02A0DB2215DC9100215085 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				CF02A0DD2215DCC600215085 /* MobileNet.mlmodel in Sources */,
 				CF237A932209FC6900C67465 /* ViewController.swift in Sources */,
+				CF7464B72217099C00D4E2D8 /* UIImageLoad.swift in Sources */,
 				CF237A912209FC6900C67465 /* AppDelegate.swift in Sources */,
 				CF959564221319CB00203536 /* ResultViewController.swift in Sources */,
 			);
@@ -241,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -296,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -308,16 +403,14 @@
 		};
 		CF237AA02209FC6B00C67465 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360476E7636C10505057CAFC /* Pods-StudyEnglishByImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B24EEZ8S3G;
 				INFOPLIST_FILE = StudyEnglishByImage/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NguyenDucTai.StudyEnglishByImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -327,16 +420,14 @@
 		};
 		CF237AA12209FC6B00C67465 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105FE6814950472C030EC185 /* Pods-StudyEnglishByImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B24EEZ8S3G;
 				INFOPLIST_FILE = StudyEnglishByImage/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NguyenDucTai.StudyEnglishByImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

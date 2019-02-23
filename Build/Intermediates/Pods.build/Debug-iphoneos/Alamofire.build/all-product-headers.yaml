@@ -1,0 +1,87 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Products/Debug-iphoneos/Pods_StudyEnglishByImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-StudyEnglishByImage-umbrella.h",
+          'external-contents': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Pods/Target Support Files/Pods-StudyEnglishByImage/Pods-StudyEnglishByImage-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_StudyEnglishByImage-Swift.h",
+          'external-contents': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Products/Debug-iphoneos/Pods_StudyEnglishByImage.framework/Headers/Pods_StudyEnglishByImage-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Products/Debug-iphoneos/Pods_StudyEnglishByImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-StudyEnglishByImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

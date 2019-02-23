@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "48fd1023d8f8038a99e1a537de278068"
+build_time: [1550937807, 267329000]
+inputs:
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1550231523, 0]

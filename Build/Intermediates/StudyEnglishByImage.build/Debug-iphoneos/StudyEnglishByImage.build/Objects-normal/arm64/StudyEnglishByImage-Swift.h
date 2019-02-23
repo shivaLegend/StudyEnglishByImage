@@ -216,17 +216,23 @@ SWIFT_CLASS("_TtC19StudyEnglishByImage14ViewController")
 @end
 
 @class UIImageView;
+@class UILabel;
 
 SWIFT_CLASS("_TtC19StudyEnglishByImage20ResultViewController")
 @interface ResultViewController : ViewController
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoImg;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified classificationLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
 @property (nonatomic, readonly) BOOL prefersStatusBarHidden;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidLoad;
 - (IBAction)click_back_btn:(id _Nonnull)sender;
+- (IBAction)click_sound_btn:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 @class AVCapturePhotoOutput;
