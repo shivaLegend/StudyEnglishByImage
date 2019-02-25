@@ -188,6 +188,7 @@ depends-member:
 - ["19StudyEnglishByImage9MobileNetC", "MobileNetInput"]
 - ["19StudyEnglishByImage9MobileNetC", "MobileNetOutput"]
 - ["19StudyEnglishByImage9MobileNetC", "URL"]
+- ["19StudyEnglishByImage9MobileNetC", "deinit"]
 - ["19StudyEnglishByImage9MobileNetC", "init"]
 - ["19StudyEnglishByImage9MobileNetC", "model"]
 - ["19StudyEnglishByImage9MobileNetC", "prediction"]

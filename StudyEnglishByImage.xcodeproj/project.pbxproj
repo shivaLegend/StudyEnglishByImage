@@ -16,6 +16,9 @@
 		CF237A9B2209FC6B00C67465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF237A992209FC6B00C67465 /* LaunchScreen.storyboard */; };
 		CF7464B72217099C00D4E2D8 /* UIImageLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7464B62217099C00D4E2D8 /* UIImageLoad.swift */; };
 		CF959564221319CB00203536 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF959563221319CB00203536 /* ResultViewController.swift */; };
+		CFFB49462223AB87003A985F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB49452223AB87003A985F /* Helper.swift */; };
+		CFFECE4F22223BB7007B00CD /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFECE4E22223BB7007B00CD /* TutorialViewController.swift */; };
+		CFFECE512222947C007B00CD /* TutorialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFECE502222947C007B00CD /* TutorialCollectionViewCell.swift */; };
 		D0710DF7D592F4345A738CDC /* Pods_StudyEnglishByImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79939DFFB0BC95B228B762DE /* Pods_StudyEnglishByImage.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +37,9 @@
 		CF237A9C2209FC6B00C67465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF7464B62217099C00D4E2D8 /* UIImageLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageLoad.swift; sourceTree = "<group>"; };
 		CF959563221319CB00203536 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CFFB49452223AB87003A985F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CFFECE4E22223BB7007B00CD /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		CFFECE502222947C007B00CD /* TutorialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 			children = (
 				CF02A0DA2215DC9100215085 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
 				CF7464B62217099C00D4E2D8 /* UIImageLoad.swift */,
+				CFFB49452223AB87003A985F /* Helper.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -91,6 +98,7 @@
 				CF9595612213193600203536 /* Controllers */,
 				CF1AF3B1220B3D5E00F0D8D1 /* Extension */,
 				CF02A0DC2215DCC600215085 /* MobileNet.mlmodel */,
+				CFFECE502222947C007B00CD /* TutorialCollectionViewCell.swift */,
 				CF237A972209FC6B00C67465 /* Assets.xcassets */,
 				CF237A9C2209FC6B00C67465 /* Info.plist */,
 			);
@@ -100,6 +108,7 @@
 		CF9595612213193600203536 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CFFECE4E22223BB7007B00CD /* TutorialViewController.swift */,
 				CF237A922209FC6900C67465 /* ViewController.swift */,
 				CF959563221319CB00203536 /* ResultViewController.swift */,
 			);
@@ -255,8 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF02A0DB2215DC9100215085 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				CFFECE4F22223BB7007B00CD /* TutorialViewController.swift in Sources */,
 				CF02A0DD2215DCC600215085 /* MobileNet.mlmodel in Sources */,
 				CF237A932209FC6900C67465 /* ViewController.swift in Sources */,
+				CFFECE512222947C007B00CD /* TutorialCollectionViewCell.swift in Sources */,
+				CFFB49462223AB87003A985F /* Helper.swift in Sources */,
 				CF7464B72217099C00D4E2D8 /* UIImageLoad.swift in Sources */,
 				CF237A912209FC6900C67465 /* AppDelegate.swift in Sources */,
 				CF959564221319CB00203536 /* ResultViewController.swift in Sources */,
@@ -410,11 +422,14 @@
 				DEVELOPMENT_TEAM = B24EEZ8S3G;
 				INFOPLIST_FILE = StudyEnglishByImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.NguyenDucTai.StudyEnglishByImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -427,11 +442,14 @@
 				DEVELOPMENT_TEAM = B24EEZ8S3G;
 				INFOPLIST_FILE = StudyEnglishByImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.NguyenDucTai.StudyEnglishByImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

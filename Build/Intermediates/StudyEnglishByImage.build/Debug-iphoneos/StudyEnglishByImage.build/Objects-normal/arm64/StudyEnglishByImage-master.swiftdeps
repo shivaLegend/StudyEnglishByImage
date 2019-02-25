@@ -1,10 +1,13 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "670df47b02f80e8e7df903799b5ae134"
-build_time: [1550937814, 905057000]
+build_time: [1551073097, 5394000]
 inputs:
   "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/Extension/CGImagePropertyOrientation+UIImageOrientation.swift": [1550165318, 0]
-  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/Controllers/ViewController.swift": [1550221872, 0]
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/Controllers/TutorialViewController.swift": [1551072222, 0]
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/Controllers/ViewController.swift": [1551023210, 0]
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/TutorialCollectionViewCell.swift": [1550998938, 0]
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/Extension/Helper.swift": [1551070492, 0]
   "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/Extension/UIImageLoad.swift": [1550242342, 0]
-  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/AppDelegate.swift": [1549386985, 0]
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/AppDelegate.swift": [1551073013, 0]
   "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/StudyEnglishByImage/Controllers/ResultViewController.swift": [1550320417, 0]
-  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Intermediates/StudyEnglishByImage.build/Debug-iphoneos/StudyEnglishByImage.build/DerivedSources/CoreMLGenerated/MobileNet/MobileNet.swift": [1550937814, 0]
+  "/Users/nguyenductai/Documents/My app/StudyEnglishByImage/Build/Intermediates/StudyEnglishByImage.build/Debug-iphoneos/StudyEnglishByImage.build/DerivedSources/CoreMLGenerated/MobileNet/MobileNet.swift": [1551073096, 0]

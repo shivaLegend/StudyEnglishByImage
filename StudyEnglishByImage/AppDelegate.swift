@@ -16,6 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    if Helper.sharedInstance.isInstalledAndUsed() {
+      self.window = UIWindow(frame: UIScreen.main.bounds)
+      
+      let storyboard = UIStoryboard(name: "Main", bundle: nil)
+      
+      let homeViewController = storyboard.instantiateViewController(withIdentifier: "ViewController")
+      let tempVC = UINavigationController(rootViewController: homeViewController)
+      self.window?.rootViewController = tempVC
+      self.window?.makeKeyAndVisible()
+    }
+    else
+    {
+      let rootViewController = self.window!.rootViewController as! UINavigationController
+      let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+      
+      let welcomeViewController = mainStoryboard.instantiateViewController(withIdentifier: "TutorialViewController") as! TutorialViewController
+      rootViewController.pushViewController(welcomeViewController, animated: false)
+    }
     return true
   }
 
